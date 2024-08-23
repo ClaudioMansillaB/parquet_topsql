@@ -22,10 +22,6 @@ source venv/bin/activate  # In Windows: venv\Scripts\activate
 ## Install the dependencies:
 Copypip install -r requirements.txt
 
-## Copy the .env.example file to .env and edit the environment variables according to your PostgreSQL configuration:
-Copycp .env.example .env
-
-
 # Usage
 
 Place your Parquet files in the data/input/ folder.

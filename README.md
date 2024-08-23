@@ -1,4 +1,4 @@
-# Parquet to PostgreSQL Converter
+# Parquet to PostgreSQL Converter (In development)
 
 This proyect provides a solution to convert Parquet files to PostgreSQL databases using DuckDB as an intermediary.
 

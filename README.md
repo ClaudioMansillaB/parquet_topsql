@@ -37,10 +37,9 @@ The data will be loaded into PostgreSQL and a summary will be generated in data/
 
 # Project Structure
 
-src/: Contains the main Python scripts.
-scripts/: Shell scripts for configuration and execution.
-data/: Folders for input and output files.
-tests/: Unit tests.
+- src/: Contains the main Python scripts.
+- scripts/: Shell scripts for configuration and execution.
+- data/: Folders for input and output files.
 
 # Contributions
 

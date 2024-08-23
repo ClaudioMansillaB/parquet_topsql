@@ -23,8 +23,10 @@ source venv/bin/activate  # In Windows: venv\Scripts\activate
 Copypip install -r requirements.txt
 
 # Usage
-
 Place your Parquet files in the data/input/ folder.
+
+# Configuration of .env file
+Modify the example.env file in the root directory with your PostgreSQL connection data and save it as .env.
 
 ## Execute the main script:
 Copypython src/main.py

@@ -12,6 +12,7 @@ This proyect provides a solution to convert Parquet files to PostgreSQL database
 
 ## Clone this repository:
 Copygit clone https://github.com/claudiomansillab/parquet-to-psql.git
+
 cd parquet-to-psql
 
 ## Create a virtual environment and activate it:

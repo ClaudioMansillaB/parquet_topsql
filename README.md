@@ -11,17 +11,17 @@ This proyect provides a solution to convert Parquet files to PostgreSQL database
 # Configuration
 
 ## Clone this repository:
-Copygit clone https://github.com/claudiomansillab/parquet-to-psql.git
+git clone https://github.com/claudiomansillab/parquet-to-psql.git
 
 cd parquet-to-psql
 
 ## Create a virtual environment and activate it:
 
-Copypython -m venv venv
+python -m venv venv
 source venv/bin/activate  # In Windows: venv\Scripts\activate
 
 ## Install the dependencies:
-Copypip install -r requirements.txt
+pip install -r requirements.txt
 
 # Usage
 Place your Parquet files in the data/input/ folder.
@@ -30,7 +30,7 @@ Place your Parquet files in the data/input/ folder.
 Modify the example.env file in the root directory with your PostgreSQL connection data and save it as .env.
 
 ## Execute the main script:
-Copypython src/main.py
+python src/main.py
 
 The data will be loaded into PostgreSQL and a summary will be generated in data/output/.
 
